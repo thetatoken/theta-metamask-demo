@@ -5,7 +5,7 @@ A Theta-Metamask demo based on @jacobedawson's [tutorial](https://github.com/jac
 
 ## Setup
 
-First, connect your Metamask plugin with the Theta Mainnet following the instructios [here](https://docs.thetatoken.org/docs/web3-stack-metamask#connect-metamask-to-the-theta-mainnet).
+First, connect your **Metamask plugin to the Theta Mainnet** following the instructios [here](https://docs.thetatoken.org/docs/web3-stack-metamask#connect-metamask-to-the-theta-mainnet).
 
 Next, clone this repo and install dependencies:
 
