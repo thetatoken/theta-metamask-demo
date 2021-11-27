@@ -15,19 +15,6 @@ cd theta-metamask-demo
 npm install
 ```
 
-As an extra step, we need to build and copy over the Theta fork of the `useDApp` lib. This step can be skipped after this [pull request](https://github.com/EthWorks/useDApp/pull/326) gets merged.
-
-```
-cd ..
-git clone https://github.com/thetatoken/useDApp
-cd useDApp
-yarn
-yarn build
-cd ../theta-metamask-demo
-rm -rf node_modules/@usedapp/core
-cp -r ../useDApp/packages/core node_modules/@usedapp/
-```
-
 ## Run React dev server
  
 Execute the following command to launch the web client at http://localhost:3000
